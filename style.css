@@ -1,0 +1,50 @@
+.container_main{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+} 
+
+
+.titulo-counter{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight:900;
+}
+.container_botoes{
+    display: flex;
+    gap:15px;
+} 
+
+.botao-diminuir,.botao-reset,.botao-aumentar{
+    font-family: 'Roboto', sans-serif;
+
+    border-radius: 8px;
+    padding:9px;
+    transition: 0.2s;
+    background:none;
+
+    font-size: 15px;
+} 
+
+.botao-diminuir:hover,.botao-reset:hover,.botao-aumentar:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+
+.numero{
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:900;
+
+}
+.negativo{
+    color: red;
+}
+
+.positivo{
+    color:green
+}
+
+.zero{
+    color:black
+}
